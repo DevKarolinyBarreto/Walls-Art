@@ -1,0 +1,255 @@
+@font-face {
+    font-family: milk;
+    src: url('milk.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: delicate;
+    src: url('delicate.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    color: #733636;
+    background-color: #F2E9E9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    text-emphasis-color: #733636;
+}
+
+/* historia */
+
+#loja {
+    padding: 1cm;
+    border: 1cm;
+    width: 500px;
+}
+
+.waht {
+    font-family: milk;
+    font-size: 25px;
+    color: #733636;
+    justify-content: center;
+    text-align: center;
+}
+
+.text_historia {
+    color: #D9AF32;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* index*/
+
+.titulo {
+    font-family: milk;
+    font-size: 20px;
+    color: #733636;
+}
+
+nav {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.bt {
+    list-style: none;
+    text-decoration: none;
+}
+.bt li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-family: milk;
+    text-decoration: none;
+}
+
+.bt li a {
+    color: #D9AF32;
+}
+
+.bt li a:hover {
+    color: #733636;
+    font-family: milk;
+}
+
+/* catalogo */
+
+#cat {
+    color: #733636;
+    font-family: milk;
+    font-size: 20px;
+    text-align: center; 
+    padding: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #733636;
+    text-align: center;
+}
+
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    gap: 20px;
+}
+
+.product {
+    min-width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background: #fff;
+    text-align: center;
+    box-shadow: #733636
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 14px;
+    color: #555;
+}
+
+.product button {
+    background-color: #733636;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #733636;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+    z-index: 10;
+    transition: background-color 0.3s;
+}
+
+.arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.arrow.left {
+    left: 10px;
+}
+
+.arrow.right {
+    right: 10px;
+}
+
+/* carrinho */
+
+.cart {
+    margin: 5px auto;
+    padding: 0px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    max-width: 600px;
+    text-align: left;
+    font-family: milk;
+    font-size: 13px;
+    text-align: center;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.cart-item p {
+    margin: 1cm;
+}
+
+.cart-item button {
+    background-color: #D9AF32;
+    color: #F2E9E9;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 1cm;
+}
+
+.cart-item button:hover {
+    background-color: #733636;
+}
+
+/* finalizar compra*/
+
+#checkoutButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #733636;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#checkoutButton:hover {
+    background-color: #218838;
+}
+
+
+/* foother */ 
+
+#ft {
+    text-align: center;
+    font-family: milk;
+    padding: 2px, 2px;
+    font-size: 15px;
+}

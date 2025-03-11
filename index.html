@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walls Art</title>
+    <link rel="stylesheet" type="text/css" href="styloo.css">
+</head>
+
+<body>
+    <header>
+        <span class="titulo"> Walls Art </span>
+        <nav> 
+           <ul class="bt">
+               <li> <a href="historiaLJ.html" target="_blank"> HISTORY </a> </li>
+               <li> <a href="https://pin.it/5oz43PXF3" target="_blank"> CATALOG </a> </li>
+   </header>
+
+   <div id="cart" class="cart">
+    <p> The cart is empty</p>
+<button id="checkoutButton" style="display: none;">Finalize Purchase</button>
+</div>
+
+   <h1 id="cat"> catalog</h1>
+   <div class="carousel-container">
+       <button class="arrow left" id="prevBtn">&#8249;</button>
+       <div class="carousel" id="carousel">
+       </div>
+       <button class="arrow right" id="nextBtn">&#8250;</button>
+   </div>
+
+   <script src="catalog.js"></script>
+
+</body>
+
+<footer>
+    <span id="ft"> Direitos altorais por Karoliny Barreto - Dona de Walls Art </span>
+</footer>
+
+
+<script>  
+window.alert (' Walls Art is a safe store, rest assured! :)')
+
+function pulaLinha(){
+
+    document.write("<br><br>")
+
+}
+
+function mostra(frase){
+
+    document.write(frase)
+    pulaLinha()
+}
+
+alert("Before accessing Walls Art, log in.")
+
+var nomeCompleto =prompt("Enter your full name")
+var email =prompt("Enter your Email")
+var login =prompt("Enter your login")
+var senha =prompt("Enter your password")
+var senha2 =prompt("Enter your password confirmation")
+
+while(senha != senha2){
+
+    alert("Your passwords don't match, try again!")
+    senha = prompt("Enter your password")
+    senha2 = prompt("Enter your password confirmation.")
+} 
+
+if (senha  == senha2){
+
+    alert("Excellent! Registration completed. ")
+} 
+
+alert("Welcome!")
+</script>
+</html>
